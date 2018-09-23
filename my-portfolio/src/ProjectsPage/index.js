@@ -7,7 +7,14 @@ class ProjectsPage extends Component {
         super(props)
 
         this.state = {
-            projects: [],
+            projects: [
+                {
+                    name: "Top-Down-Shooter",
+                    id: 1,
+                    cover: "https://aarp.cdn.arkadiumhosted.com/4.0-aarp/Content/Images/default/600x600_gameicon.jpg",
+                    summary: "great game"
+                }
+            ],
             currentProject: {},
             showDetails: false,
         }
@@ -40,8 +47,8 @@ class ProjectsPage extends Component {
                 <div>
                     {this.state.showDetails ?
                         <ProjectDetails
-                            projectName={this.state.currentGame.name}
-                            summary={this.state.currentGame.summary}
+                            projectName={this.state.currentProject.name}
+                            summary={this.state.currentProject.summary}
                         />
                         : null
                     }

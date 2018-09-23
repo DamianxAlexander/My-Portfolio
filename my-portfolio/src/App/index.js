@@ -8,18 +8,23 @@ import "./style.css";
 class App extends Component {
   render() {
     return (
-    <Router>
-      <div className="App">
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/contact">Contact</Link>
-          <Link to="/projects">Projects</Link>
-        </nav>
-        <Route exact path="/" component={Home} />
-        <Route path="/projects" component={ProjectsPage} />
-        <Route path="/contact" component={ContactPage} />
-      </div>
-    </Router>
+      <Router>
+        <div className="app">
+          <nav className="navbar">
+            <div>
+              <span className="logo">D.A.S</span>
+            </div>
+            <div className="nav-links">
+              <Link className="link" to="/">Home</Link>
+              <Link className="link" to="/contact">Contact</Link>
+              <Link className="link" to="/projects">Projects</Link>
+            </div>
+          </nav>
+          <Route exact path="/" component={Home} />
+          <Route path="/projects" component={ProjectsPage} />
+          <Route path="/contact" component={ContactPage} />
+        </div>
+      </Router>
     )
   }
 }
