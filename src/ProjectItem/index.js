@@ -9,7 +9,7 @@ class ProjectItem extends Component {
         return (
             <div className="project-elem" onClick={this.toggleDetails}>
                 <div className="project-item-wrapper">
-                    <img className="project-item-img" alt="Project Cover" src={this.props.cover} style={{ width: "200px", height: "200px", }} />
+                    <img className="project-item-img" alt="Project Cover" src={this.props.cover} />
                     <p className="project-item-title">{this.props.name}</p>
                 </div>
             </div>

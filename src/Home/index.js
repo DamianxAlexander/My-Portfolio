@@ -5,7 +5,7 @@ class Home extends Component {
     return (
       <div>
         <header>
-            <h1>Welcome to my portfolio</h1>
+            <h1 className="intro-header">DAMIAN A. SALGADO<br></br>FULL STACK DEVELOPER</h1>
         </header>
       </div>
     )
