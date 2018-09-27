@@ -46,6 +46,10 @@ body {
     margin: 15px;
     cursor: pointer;
 }
+
+.project-elem:hover {
+    transform: scale(1.04);
+}
   
 .project-item-wrapper {
     display: block;
@@ -70,6 +74,12 @@ body {
     margin: 100px auto 0 auto;
     font-size: 40px;
     font-family: 'Teko', sans-serif;
+}
+
+.projects-header {
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-size: 40px;
 }
 
 .linkedin-img {

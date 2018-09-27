@@ -13,7 +13,37 @@ class ProjectsPage extends Component {
                     id: 1,
                     cover: "https://aarp.cdn.arkadiumhosted.com/4.0-aarp/Content/Images/default/600x600_gameicon.jpg",
                     summary: "great game"
-                }
+                },
+                {
+                    name: "Shooter",
+                    id: 2,
+                    cover: "https://aarp.cdn.arkadiumhosted.com/4.0-aarp/Content/Images/default/600x600_gameicon.jpg",
+                    summary: "new game"
+                },
+                {
+                    name: "Top-Down-Shooter",
+                    id: 3,
+                    cover: "https://aarp.cdn.arkadiumhosted.com/4.0-aarp/Content/Images/default/600x600_gameicon.jpg",
+                    summary: "great game"
+                },
+                {
+                    name: "Top-Down-Shooter",
+                    id: 4,
+                    cover: "https://aarp.cdn.arkadiumhosted.com/4.0-aarp/Content/Images/default/600x600_gameicon.jpg",
+                    summary: "great game"
+                },
+                {
+                    name: "Top-Down-Shooter",
+                    id: 5,
+                    cover: "https://aarp.cdn.arkadiumhosted.com/4.0-aarp/Content/Images/default/600x600_gameicon.jpg",
+                    summary: "great game"
+                },
+                {
+                    name: "Top-Down-Shooter",
+                    id: 6,
+                    cover: "https://aarp.cdn.arkadiumhosted.com/4.0-aarp/Content/Images/default/600x600_gameicon.jpg",
+                    summary: "great game"
+                },
             ],
             currentProject: {},
             showDetails: false,
@@ -31,6 +61,7 @@ class ProjectsPage extends Component {
     render() {
         return (
             <div>
+                <h1 className="projects-header">PROJECTS</h1>
                 <div className="project-list">
                     {this.state.projects.map(project => {
                         return (
