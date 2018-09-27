@@ -92,9 +92,30 @@ body {
     font-size: 40px;
 }
 
-.linkedin-img {
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin-img-wrapper {
     width: 50px;
     height: 50px;
+}
+
+.linkedin-img {
+    width: 100%;
+    height: 100%;
+}
+
+.github-img-wrapper {
+    width: 70px;
+    height: 70px;
+}
+
+.github-img {
+    width: 100%;
+    height: 100%;
 }
 
 .contact-content-wrapper {
