@@ -6,7 +6,9 @@ class ContactPage extends Component {
       <div className="contact-content-wrapper">
         <h1 className="contact-header">CONTACT</h1>
         <hr className="splitter" />
-        <h2 className="contact-info">DamianxAlexander@gmail.com</h2>
+        <h2 className="contact-info">
+          <a className="email-link" href="mailto:DamianxAlexander@gmail.com">DamianxAlexander@gmail.com</a>
+        </h2>
         <h3 className="contact-info">732 - 421 - 5544</h3>
         <div className="icons">
           <div className="linkedin-img-wrapper">
