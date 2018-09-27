@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://DamianxAlexander.github.io/My-Portfolio",
+  "homepage": "http://damianalexander.tech",
   "dependencies": {
     "gh-pages": "^2.0.0",
     "nodemon": "^1.18.4",
