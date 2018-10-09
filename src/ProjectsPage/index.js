@@ -33,16 +33,16 @@ class ProjectsPage extends Component {
                     link: "https://rogues-gallery.herokuapp.com/"
                 },
                 {
-                    name: "Top-Down-Shooter",
+                    name: "Coming Soon",
                     id: 4,
                     cover: "https://aarp.cdn.arkadiumhosted.com/4.0-aarp/Content/Images/default/600x600_gameicon.jpg",
-                    summary: "great game"
+                    summary: "Details Coming Soon"
                 },
                 {
-                    name: "Top-Down-Shooter",
+                    name: "Coming Soon",
                     id: 5,
                     cover: "https://aarp.cdn.arkadiumhosted.com/4.0-aarp/Content/Images/default/600x600_gameicon.jpg",
-                    summary: "great game"
+                    summary: "Details Coming Soon"
                 },
             ],
             currentProject: {},
