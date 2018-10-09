@@ -3,6 +3,12 @@ body {
     margin: 0 auto;
 }
 
+hr {
+    background: #000000;
+    height: 1px;
+    width: 90vw;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -67,6 +73,36 @@ body {
     font-family: 'Teko', sans-serif;
     font-size: 30px;
     color: #000000;
+}
+
+.project-details {
+    text-align: center;
+    font-family: 'Teko', sans-serif;    
+}
+
+.project-details h2 {
+    font-size: 30px;
+    margin: 5px auto;
+}
+
+.project-details p {
+    font-size: 25px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.project-details a {
+    display: block;
+    margin: 10px auto;
+    text-decoration: none;
+    outline: none;
+    color: #d7402f;
+    font-size: 23px;
+    width: 100px;
+}
+
+.project-details a:hover {
+    transform: scale(1.2);
 }
 
 .intro-header {

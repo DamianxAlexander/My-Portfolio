@@ -4,11 +4,10 @@ class ProjectDetails extends Component {
     render() {
         return (
             <div className="project-details">
-                <h1>DETAILS</h1>
-                <div>
-                    <h2>{this.props.projectName}</h2>
-                    <p>{this.props.summary}</p>
-                </div>
+                <h2>{this.props.projectName}</h2>
+                <p>{this.props.summary}</p>
+                <a href={this.props.github} target="_blank">GitHub Code</a>
+                <a href={this.props.link}>Live Site</a>
             </div>
         )
     }

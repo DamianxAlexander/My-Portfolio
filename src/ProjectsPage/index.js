@@ -11,8 +11,10 @@ class ProjectsPage extends Component {
                 {
                     name: "Top-Down-Shooter",
                     id: 1,
-                    cover: "https://aarp.cdn.arkadiumhosted.com/4.0-aarp/Content/Images/default/600x600_gameicon.jpg",
-                    summary: "great game"
+                    cover: "https://i.imgur.com/KmI38fJ.jpg",
+                    summary: "This top-down-shooter style game was created utilizing vanilla Javascript and HTML Canvas",
+                    github: "https://git.generalassemb.ly/DamianxAlexander/Top-Down-Shooter-Game",
+                    link: "https://pages.git.generalassemb.ly/DamianxAlexander/Top-Down-Shooter-Game/"
                 },
                 {
                     name: "Shooter",
@@ -53,7 +55,7 @@ class ProjectsPage extends Component {
     toggleDetails = projectId => {
         const currentProject = this.state.projects.filter(project => project.id === projectId)[0];
         this.setState({
-          showDetails: !this.state.showDetails,
+          showDetails: true,
           currentProject: currentProject,
         })
       }
@@ -75,11 +77,14 @@ class ProjectsPage extends Component {
                         );
                     })}
                 </div>
+                <hr/>
                 <div>
                     {this.state.showDetails ?
                         <ProjectDetails
                             projectName={this.state.currentProject.name}
                             summary={this.state.currentProject.summary}
+                            github={this.state.currentProject.github}
+                            link={this.state.currentProject.link}
                         />
                         : null
                     }
