@@ -17,16 +17,20 @@ class ProjectsPage extends Component {
                     link: "https://pages.git.generalassemb.ly/DamianxAlexander/Top-Down-Shooter-Game/"
                 },
                 {
-                    name: "Shooter",
+                    name: "Video Game Database",
                     id: 2,
-                    cover: "https://aarp.cdn.arkadiumhosted.com/4.0-aarp/Content/Images/default/600x600_gameicon.jpg",
-                    summary: "new game"
+                    cover: "https://i.imgur.com/9NYY88U.jpg",
+                    summary: "This project was built with react. While utilizing a video game database API, in order to request video game data with search functionality",
+                    github: "https://git.generalassemb.ly/DamianxAlexander/react-project-game-data",
+                    link: "https://peaceful-ridge-80617.herokuapp.com/"
                 },
                 {
-                    name: "Top-Down-Shooter",
+                    name: "Rogues Gallery",
                     id: 3,
-                    cover: "https://aarp.cdn.arkadiumhosted.com/4.0-aarp/Content/Images/default/600x600_gameicon.jpg",
-                    summary: "great game"
+                    cover: "https://i.imgur.com/QsXM7Rt.jpg",
+                    summary: "I lead a team on this project to create a villain character database. This was built with a small custom database using PostgreSQL, Node, Express and React",
+                    github: "https://git.generalassemb.ly/DamianxAlexander/project-3",
+                    link: "https://rogues-gallery.herokuapp.com/"
                 },
                 {
                     name: "Top-Down-Shooter",
@@ -37,12 +41,6 @@ class ProjectsPage extends Component {
                 {
                     name: "Top-Down-Shooter",
                     id: 5,
-                    cover: "https://aarp.cdn.arkadiumhosted.com/4.0-aarp/Content/Images/default/600x600_gameicon.jpg",
-                    summary: "great game"
-                },
-                {
-                    name: "Top-Down-Shooter",
-                    id: 6,
                     cover: "https://aarp.cdn.arkadiumhosted.com/4.0-aarp/Content/Images/default/600x600_gameicon.jpg",
                     summary: "great game"
                 },
