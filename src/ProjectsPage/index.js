@@ -33,7 +33,7 @@ class ProjectsPage extends Component {
                     link: "https://rogues-gallery.herokuapp.com/"
                 },
                 {
-                    name: "Coming Soon",
+                    name: "Elementary Particle Database",
                     id: 4,
                     cover: "https://aarp.cdn.arkadiumhosted.com/4.0-aarp/Content/Images/default/600x600_gameicon.jpg",
                     summary: "Details Coming Soon"
